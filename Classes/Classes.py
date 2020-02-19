@@ -42,7 +42,7 @@ except mysql.connector.Error as err:
         print(err)
         exit(1)
 
-cursor.execute(drop_query);
+#cursor.execute(drop_query);
 
 #Attempt to create table
 for table_name in TABLES:
